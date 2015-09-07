@@ -1,1 +1,35 @@
-<html>
+html,body,* {
+    margin: 0px;
+    BOX-SIZING: border-box;
+}
+header {
+    width: 100vw;
+    min-height: 150px;
+    height: 20vh;
+    max-height: 250px;
+    background-color: #8d66dd;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hdr1, .hdr3 {
+    width: 250px;
+}
+.hdr2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hdr1 {
+    
+    background-size: 200%;
+    border-radius: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 59% -1%;
+}
+
